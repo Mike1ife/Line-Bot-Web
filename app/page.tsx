@@ -1,5 +1,5 @@
 export default async function Home() {
-  const res = await fetch("https://line-bot-api.vercel.app/api/users", {
+  const res = await fetch("https://biilybot.vercel.app/api/all_user_info", {
     cache: "no-store", // always fetch fresh data
   });
 
