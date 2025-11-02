@@ -1,0 +1,15 @@
+.main-container {
+    margin-top: 30px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.body-container {
+    height: 700px;
+    width: 1000px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+}

@@ -1,0 +1,42 @@
+.menu-item {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.icon1 {
+    width: 40px;
+    height: 40px;
+    background-image: url('/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 20px;
+}
+
+.icon2 {
+    width: 30px;
+    height: 30px;
+    background-image: url('/ball.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 20px;
+}
+
+.icon3 {
+    width: 45px;
+    height: 45px;
+    background-image: url('/user-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 20px;
+}
+
+.menu-text {
+    font-size: 30px;
+    color: #000;
+    text-decoration: underline;
+    cursor: pointer;
+}

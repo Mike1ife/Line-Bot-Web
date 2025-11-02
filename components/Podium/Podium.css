@@ -1,0 +1,31 @@
+.podium-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.top3-container {
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.first-user-icon {
+    width: 130px;
+    border-radius: 50%;
+}
+
+.second-user-icon {
+    width: 110px;
+    border-radius: 50%;
+    transform: translateY(60px);
+}
+
+.third-user-icon {
+    width: 100px;
+    border-radius: 50%;
+    transform: translateY(80px);
+}
