@@ -1,7 +1,16 @@
 import { MatchToday } from "@/types/match";
 import "./MatchList.css";
+import { Slab } from "react-loading-indicators";
 
 export default function MatchList({ matches }: { matches: MatchToday[] }) {
+    if (matches.length == 0) {
+        return (
+            <div className="match-container">
+                <Slab color="#d165f7" size="medium" text="Loading Games" textColor="" />
+            </div>
+        )
+    }
+
     return (
         <div className="match-container">
             {matches.map((match, index) => (

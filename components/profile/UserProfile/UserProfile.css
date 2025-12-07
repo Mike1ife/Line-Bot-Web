@@ -1,0 +1,17 @@
+.profile-container {
+    margin: 20px 100px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-icon {
+    width: 130px;
+    border-radius: 50%;
+}
+
+.point-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

@@ -1,5 +1,5 @@
 import '@/styles/global.css'
-import TopBar from '@/components/TopBar/TopBar';
+import TopBar from '@/components/Header/TopBar';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (

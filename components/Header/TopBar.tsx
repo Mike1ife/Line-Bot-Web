@@ -1,6 +1,6 @@
 import "./TopBar.css"
 import Link from 'next/link';
-import MenuItem from "../MenuItem/MenuItem"
+import MenuItem from "../home/MenuItem/MenuItem"
 
 export default function TopBar() {
     return (

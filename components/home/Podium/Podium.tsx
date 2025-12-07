@@ -1,9 +1,15 @@
 import { UserTypePoint } from "@/types/leaderboard";
+import { ThreeDot } from "react-loading-indicators";
 import "./Podium.css";
+
 
 export default function Podium({ leaderboard }: { leaderboard: UserTypePoint[] }) {
     if (leaderboard.length < 3) {
-        return <div className="podium-container">Loading...</div>;
+        return (
+            <div className="podium-container">
+                <ThreeDot variant="bounce" color="#32cd32" size="medium" text="" textColor="" />
+            </div>
+        )
     }
 
     return (

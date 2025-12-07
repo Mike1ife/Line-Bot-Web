@@ -1,0 +1,14 @@
+.main-container {
+    margin: 30px 30px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-container>div:first-child {
+    flex: 1;
+}
+
+/* Second child (Analytics wrapper) = 2/3 width */
+.main-container>div:last-child {
+    flex: 2;
+}
