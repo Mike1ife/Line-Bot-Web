@@ -5,7 +5,7 @@ import { MatchToday } from "@/types/interface";
 
 import "./HomeContent.css"
 import MatchList from "../MatchList/MatchList";
-import LeaderBoard from "../Leaderboard/Leaderboard"
+import Leaderboard from "../Leaderboard/Leaderboard"
 
 export default function HomeContent() {
     const [matches, setMatches] = useState<MatchToday[]>([]);
@@ -33,7 +33,7 @@ export default function HomeContent() {
                 <MatchList matches={matches} />
             </div>
             <div className="body-container">
-                <LeaderBoard />
+                <Leaderboard />
             </div>
         </div>
     );
