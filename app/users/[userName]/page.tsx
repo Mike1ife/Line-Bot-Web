@@ -1,4 +1,4 @@
-import MainContent from "@/components/profile/MainContent/MainContent"
+import MainContent from "@/components/profile/ProfileContent/ProfileContent"
 
 export default async function ProfilePage({ params }: { params: Promise<{ userName: string }> }) {
     const { userName } = await params;

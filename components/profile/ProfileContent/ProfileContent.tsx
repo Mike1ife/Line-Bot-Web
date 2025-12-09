@@ -1,8 +1,8 @@
 "use client"
 
 import { useEffect, useState } from "react";
-import { Profile } from "@/types/profile"
-import "./MainContent.css"
+import { Profile } from "@/types/interface"
+import "./ProfileContent.css"
 import UserProfile from "../UserProfile/UserProfile";
 import Analytics from "../Analytics/Analytics";
 
@@ -24,7 +24,7 @@ export default function MainContent({ userName }: { userName: string }) {
     useEffect(() => { loadProfile() }, [])
 
     return (
-        <div className="main-container">
+        <div className="profile-content-container">
             <div>
                 <UserProfile userProfile={profile}></UserProfile>
             </div>

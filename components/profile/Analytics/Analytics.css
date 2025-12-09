@@ -1,0 +1,101 @@
+.analyatics-container {
+    width: 95%;
+    height: 715px;
+    padding-right: 20px;
+    background-color: rgba(255, 255, 255, 0.308);
+    border-radius: 8px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1)
+}
+
+.switch-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.chart-switch {
+    height: 30px;
+    width: 125px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    background-color: rgba(214, 214, 214, 0.397);
+    border-radius: 100px;
+    cursor: pointer;
+    padding: 4px;
+    margin: 15px;
+}
+
+.chart-switch-oval {
+    position: absolute;
+    background-color: cornflowerblue;
+    height: 30px;
+    width: 50%;
+    border-radius: 100px;
+    transition: 100ms ease;
+    left: 4px;
+}
+
+.chart-switch-label-container {
+    position: relative;
+}
+
+.chart-switch-label {
+    padding: 8px 16px;
+    font-size: 15px;
+}
+
+.chart-switch.right .chart-switch-oval {
+    left: calc(50% - 4px);
+}
+
+.chart-switch:not(.right) .chart-switch-label-container :first-child {
+    color: white;
+}
+
+.chart-switch.right .chart-switch-label-container :last-child {
+    color: white;
+}
+
+
+
+.chart-container {
+    margin-top: 20px;
+    width: 100%;
+    height: 600px;
+}
+
+.rank-type-oval-container {
+    display: flex;
+}
+
+.rank-type-oval {
+    height: 30px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(214, 214, 214, 0.397);
+    border-radius: 100px;
+    cursor: pointer;
+    padding: 4px;
+    margin: 15px 5px;
+}
+
+.rank-type-oval.active {
+    background-color: cornflowerblue;
+}
+
+.rank-type-oval.active span {
+    color: white;
+}
+
+.rank-type-label {
+    padding: 8px 16px;
+    font-size: 15px;
+}
+
+.count-type-oval-container {
+    display: flex;
+    flex-direction: row;
+}

@@ -26,7 +26,21 @@
 }
 
 .title-text {
-    font-size: 70px;
-    color: #000;
+    font-size: 64px;
+    font-weight: 800;
     margin: 0;
+
+    background: linear-gradient(50deg, #0011ff, #f30202);
+
+    /* Vendor-prefixed version for WebKit browsers (Chrome, Safari, Edge) */
+    -webkit-background-clip: text;
+
+    /* Standard property for future browser support */
+    background-clip: text;
+
+    /* Required to make gradient text visible */
+    color: transparent;
+
+    /* Vendor prefix for Safari */
+    -webkit-text-fill-color: transparent;
 }
