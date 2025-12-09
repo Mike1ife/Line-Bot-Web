@@ -39,7 +39,7 @@ export default function Analytics({ userName }: { userName: string }) {
     }
 
     useEffect(() => {
-        loadPointHistory("week_points");
+        loadPointHistory("day_points");
     }, [])
 
     const handleClick = async () => {
@@ -48,7 +48,7 @@ export default function Analytics({ userName }: { userName: string }) {
             await loadCounter("correct", "season");
         } else {
             setChartType("point")
-            await loadPointHistory("week_points");
+            await loadPointHistory("day_points");
         }
     };
 

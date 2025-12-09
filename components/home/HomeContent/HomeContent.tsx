@@ -1,13 +1,13 @@
 "use client";
 
 import { useState, useEffect } from "react"
-import { MatchToday, UserTypePoint } from "@/types/interface";
+import { MatchToday } from "@/types/interface";
 
 import "./HomeContent.css"
 import MatchList from "../MatchList/MatchList";
 import LeaderBoard from "../Leaderboard/Leaderboard"
 
-export default function MainContent() {
+export default function HomeContent() {
     const [matches, setMatches] = useState<MatchToday[]>([]);
 
     const loadMatchToday = async () => {

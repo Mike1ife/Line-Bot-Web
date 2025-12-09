@@ -16,6 +16,13 @@ export interface MatchToday {
     gameTime: string;
 }
 
+export interface UserInfo {
+    userName: string;
+    pictureUrl: string;
+    weekGoatCount: number;
+    monthGoatCount: number;
+}
+
 export interface Profile {
     userName: string;
     pictureUrl: string;

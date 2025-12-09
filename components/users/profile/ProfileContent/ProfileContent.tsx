@@ -6,7 +6,7 @@ import "./ProfileContent.css"
 import UserProfile from "../UserProfile/UserProfile";
 import Analytics from "../Analytics/Analytics";
 
-export default function MainContent({ userName }: { userName: string }) {
+export default function ProfileContent({ userName }: { userName: string }) {
     const [profile, setProfile] = useState<Profile | undefined>()
 
     const loadProfile = async () => {
